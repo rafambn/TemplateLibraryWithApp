@@ -71,10 +71,10 @@ android {
 
 gradle.projectsEvaluated {
     val signTasks = listOf(
-        ":shared:signAndroidReleasePublication",
-        ":shared:signJsPublication",
-        ":shared:signJvmPublication",
-        ":shared:signKotlinMultiplatformPublication"
+        "signAndroidReleasePublication",
+        "signJsPublication",
+        "signJvmPublication",
+        "signKotlinMultiplatformPublication"
     )
 
     val publishTasks = listOf(

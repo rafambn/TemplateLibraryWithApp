@@ -64,7 +64,7 @@ publishing {
             name.set("Template library with App")
             description.set("Kotlin Multiplatform library")
             //url.set("") todo
-            // url.set("https://github.com/rafambn/KMP-library")
+             url.set("https://github.com/rafambn/Template-Library-with-app")
 
             licenses {
                 license {
@@ -81,7 +81,7 @@ publishing {
             }
             scm {
                 //url.set("") todo
-                // url.set("https://github.com/rafambn/KMP-library")
+                 url.set("https://github.com/rafambn/Template-Library-with-app")
             }
         }
     }
