@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.multiplatform)
     alias(libs.plugins.android.library)
+    alias(libs.plugins.compose)
     id("convention.publication")
 }
 
@@ -41,6 +42,11 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            implementation(compose.runtime)
+            implementation(compose.material3)
+            implementation(compose.materialIconsExtended)
+            @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
+            implementation(compose.components.resources)
         }
 
         commonTest.dependencies {
