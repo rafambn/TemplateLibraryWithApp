@@ -4,7 +4,7 @@ plugins {
     id("convention.publication")
 }
 
-group = "io.github.rafambn.templatelibrary"
+group = "io.github.rafambn"
 version = "1.0"
 
 kotlin {

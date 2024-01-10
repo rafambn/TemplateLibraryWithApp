@@ -1,4 +1,4 @@
-rootProject.name = "Template-library-with-App"
+rootProject.name = "Template-library-with-app"
 include(":composeApp")
 include(":templateLibrary")
 includeBuild("convention-plugins")

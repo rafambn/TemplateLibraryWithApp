@@ -74,7 +74,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.github.rafambn.templatelibrary"
+    namespace = "io.github.rafambn.templateapp"
     compileSdk = 34
 
     defaultConfig {
